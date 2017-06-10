@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Change Language" xml:space="preserve">
+    <value>Bytt språket</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="LongMessageId" xml:space="preserve">
+    <value>Denne lange meldingen har blitt oversatt ved hjelp av SharedResources.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed consectetur lorem, in pretium arcu. Morbi accumsan nec metus a condimentum. Nam dictum purus turpis, non euismod purus elementum sit amet. Fusce tempor accumsan nibh, ac pellentesque nunc mollis in. Fusce sed velit scelerisque, mattis magna congue, porta dolor. Nunc tempor suscipit enim et pharetra. Curabitur in neque vestibulum, egestas nisi id, auctor purus. Maecenas nisl mi, venenatis in est at, mattis rhoncus mauris. Donec in erat eu dui suscipit fringilla vel non odio. Donec in nisl ut nisi feugiat euismod vel ac magna. Proin nec nunc pellentesque, sodales ipsum nec, feugiat sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eu bibendum mauris. Etiam dui elit, fermentum ut congue aliquam, dictum ut diam. Aliquam id gravida erat.
+
+Morbi porta arcu malesuada, gravida odio sit amet, lobortis nunc. Suspendisse a metus ex. Integer mattis arcu ac purus efficitur vehicula eu in sem. Vestibulum finibus nunc purus, hendrerit pretium urna porta ut. Nam et ultrices quam, et mollis nibh. Fusce ac leo commodo, aliquet tortor eu, sodales justo. Praesent vehicula auctor blandit. Suspendisse mollis nunc et nisl lacinia, in dignissim neque tristique. Mauris volutpat tristique ante a convallis. Nullam sagittis justo auctor sem suscipit dictum.
+
+Fusce non risus non sapien semper porta. Aenean consequat maximus risus, sodales facilisis est viverra in. Vestibulum quis dolor id metus hendrerit pulvinar. Sed aliquet, nulla ac euismod suscipit, massa augue lacinia lectus, nec imperdiet felis mi non sapien. Praesent sem ligula, ultricies eget volutpat in, pulvinar ut metus. Vivamus et ex neque. Aenean tincidunt, nisl ut porttitor pharetra, lectus massa molestie felis, eget dignissim magna sem eu magna. Sed luctus magna tortor, in suscipit nisi semper ut. In varius, est non finibus fringilla, sem quam dignissim eros, eleifend viverra nisi tortor in orci. Praesent et congue justo. Aenean ac lacinia ipsum, ut egestas libero. Nulla auctor efficitur turpis ut dictum. Aenean est nunc, eleifend in convallis a, finibus id velit. Nulla fringilla libero facilisis vehicula varius. Aenean aliquam luctus tempus. Aenean eu risus massa.
+
+Donec ut tempor ipsum. Sed quis venenatis arcu, at fringilla lorem. Curabitur dignissim tristique nunc ut vehicula. Duis ultrices sapien turpis, ac viverra odio dapibus sit amet. Donec quis risus ut enim commodo maximus eget quis magna. Praesent varius, felis ac sagittis maximus, leo mauris finibus augue, quis rutrum nisi elit quis risus. Cras cursus, nunc vel finibus cursus, magna mi consectetur ligula, vitae varius nisl libero at neque. In lacus felis, semper non dictum ac, accumsan eu nisi. Suspendisse convallis, nisl sit amet porttitor ornare, nulla ante feugiat velit, ut porttitor mi tortor efficitur massa. Aliquam ornare ligula id diam hendrerit tempus. Vivamus risus risus, eleifend id nibh id, rutrum egestas libero. Vivamus congue dui vel rutrum malesuada. Vivamus vitae ultricies leo. Sed quis augue nec metus tincidunt viverra eget ut augue. Aenean sapien velit, sodales a ligula eget, imperdiet vestibulum augue. Nullam vel est lacus.
+
+Nam finibus ut magna eget imperdiet. Nullam commodo pharetra purus, nec dictum ligula dictum et. Aenean at nisi at ex varius convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec in sapien porta, laoreet diam sit amet, hendrerit tortor. Pellentesque in porta sem. Nulla vulputate sem id quam viverra sagittis. Aliquam mollis ligula augue, et varius purus mattis in. Aliquam eu leo posuere, egestas erat sit amet, tempus lacus. Morbi vulputate erat ante, ut fermentum augue egestas sit amet.</value>
+  </data>
+  <data name="This message has been translated directly in index view." xml:space="preserve">
+    <value>Denne meldingen her blitt oversatt direkte i index viewet.</value>
+  </data>
+  <data name="This message has been translated using SharedResources." xml:space="preserve">
+    <value>Denne meldingen har blitt oversatt ved hjelp av SharedResources.</value>
+  </data>
+</root>

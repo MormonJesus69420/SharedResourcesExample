@@ -1,0 +1,15 @@
+﻿@using Microsoft.Extensions.Localization
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@inject IStringLocalizer<SharedResources> SharedLocalizer
+
+<br/>
+
+<p>@ViewData["Message"]</p>
+
+<p>@SharedLocalizer["This message has been translated directly in index view."]</p>
+
+<p>@SharedLocalizer["LongMessageId"]</p>
